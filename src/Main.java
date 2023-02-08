@@ -7,6 +7,6 @@ public class Main {
         int bonus = IncomingPayment>payment ? ((IncomingPayment-payment) / 100) : (0); // если платеж >1000, то рассчитать бонус с разницы превышающей суммы;
         System.out.println(bonus + " бонусных рублей");
         int BalanceAfter = BalanceBefore+IncomingPayment+bonus; // рассчитать итоговый баланс (баланс до пополнения+ сумма пополнения + бонус)
-        System.out.println(BalanceAfter + " итоговый балланс");
+        System.out.println(BalanceAfter + " итоговый баланс");
     }
 }
